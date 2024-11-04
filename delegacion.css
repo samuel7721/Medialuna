@@ -1,0 +1,172 @@
+.delegacion {
+    background-color:paleturquoise ; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 80%; /* Ancho del formulario */
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Centrado y espaciado vertical */
+}
+    
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .search-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+/* Estilo para el botón Regresar */
+.back-button {
+    padding: 10px 30px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Verde oscuro */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toast { 
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #f44336; /* Rojo para el mensaje de error */
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -600%); /* Centra tanto en el eje X como en el eje Y */
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+body {
+    font-family: Arial, sans-serif; /* Usa Arial como fuente por defecto */
+    background-color: #ffffff; /* Color de fondo claro para el cuerpo */
+    margin: 0;
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
+
+/* Estilos para los títulos principales */
+h1 {
+    text-align: center; /* Centra el título en la página */
+    color: #333; /* Color oscuro para el texto */
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block; /* Hace que las etiquetas sean bloques para alinear los campos */
+    margin-bottom: 8px; /* Espaciado debajo de cada etiqueta */
+    color: #555; /* Color gris para el texto de las etiquetas */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 8px 15px;  /* Espaciado interno para facilidad de escritura */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    box-sizing: border-box; /* El ancho incluye el padding y el borde */
+}
+
+/* Botón de enviar */
+button {
+    padding: 12px;
+    background-color: #36a415;
+    color: #ffffff;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #76ecd8; /* Cambio de color al pasar el ratón */
+}
+
+
+/* Estilos de mensajes de éxito o error */
+.success, .error {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.success {
+    color: #28a745;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+

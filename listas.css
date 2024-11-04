@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Estilo para el formulario de búsqueda */
+.busqueda {
+display: flex;
+justify-content: center;
+margin: 20px 0;
+}
+
+input[name="search"] {
+width: 350px;
+padding: 12px 20px;
+border: 2px solid #27a749;
+border-radius: 30px;
+font-size: 16px;
+outline: none;
+transition: border-color 0.3s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[name="search"]:focus {
+border-color: #4CAF50;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de búsqueda */
+button[type="submit"] {
+padding: 12px 30px;
+background-color: #4CAF50; /* Tomate */
+color: white;
+border: none;
+border-radius: 30px;
+margin-left: 10px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+transition: background-color 0.3s ease, transform 0.2s;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+background-color: #ff4500; /* Naranja oscuro */
+transform: translateY(-3px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:active {
+transform: translateY(0);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el botón Regresar */
+.back-button {
+padding: 12px 30px;
+background-color: #4CAF50; /* Verde */
+color: white;
+border: none;
+border-radius: 30px;
+margin-left: 10px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+transition: background-color 0.3s ease, transform 0.2s;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+background-color: #45a049; /* Verde oscuro */
+transform: translateY(-3px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:active {
+transform: translateY(0);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
